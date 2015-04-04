@@ -253,6 +253,7 @@ gulp.task('watch', function() {
         .watch(js, ['js', 'vendorjs'])
         .on('change', logWatch);
 
+
     gulp
         .watch(css, ['css', 'vendorcss'])
         .on('change', logWatch);
