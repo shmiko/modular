@@ -13,8 +13,8 @@
         var vm = this;
 
         vm.news = {
-            title: 'Marvel Avengers',
-            description: 'Marvel Avengers 2 is now in production!'
+            title: 'Trimstomp Adventurs',
+            description: 'Tripstomp Adventures 2 is now in production!'
         };
         vm.avengerCount = 0;
         vm.avengers = [];
