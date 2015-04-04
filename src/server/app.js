@@ -63,10 +63,6 @@ app.listen(port, function() {
         '\nprocess.cwd = ' + process.cwd());
 });
 
-var http = require('http');
 
-var server = http.createServer(res,req);
-
-server.listen(3000);
 
 
